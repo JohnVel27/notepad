@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D6D1B1"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:id="@+id/imagegif"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/notepad"
+        android:layout_centerHorizontal="true"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/materilbutton1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Get Started"
+        android:textStyle="bold"
+        android:textSize="30dp"
+        app:backgroundTint="#98c389"
+        android:layout_marginLeft="100dp"
+        android:layout_alignBottom="@+id/imagegif"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="100dp"/>
+
+</RelativeLayout>
